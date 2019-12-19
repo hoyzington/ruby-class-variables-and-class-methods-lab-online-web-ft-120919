@@ -43,9 +43,9 @@ class Song
     genres = {}
     @@genres.each do |g|
       if genres.keys.include?(g)
-        genres[a] += 1
+        genres[g] += 1
       else
-        genres[a] = 1
+        genres[g] = 1
       end
     end
     genres
